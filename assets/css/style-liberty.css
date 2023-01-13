@@ -11235,11 +11235,7 @@ p.white {
 /*-- //toggle switch --*/
 /* //bootstrap */
 
-/* font awesome css */
-/*!
- * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
+/* Font  css */
 .fa,
 .fas,
 .far,
@@ -18649,11 +18645,7 @@ ul.admin-list {
   margin: 0 0 0 0;
 }
 
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
+/** Carousel*/
 .owl-carousel,
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
@@ -20786,11 +20778,6 @@ p.count-text {
 /* //3 grids with icon */
 
 /* testimonials */
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
 .w3l-clients-1 .owl-carousel,
 .w3l-clients-1 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
@@ -21015,11 +21002,6 @@ p.count-text {
   }
 }
 
-/**
-      * Owl Carousel v2.3.4
-      * Copyright 2013-2018 David Deutsch
-      * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
-      */
 .w3l-clients-1 .owl-theme .owl-dots,
 .w3l-clients-1 .owl-theme .owl-nav {
   text-align: center;
