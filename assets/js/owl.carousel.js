@@ -1,20 +1,4 @@
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
-/**
- * Owl carousel
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- * @todo Lazy Load Icon
- * @todo prevent animationend bubling
- * @todo itemsScaleUp
- * @todo Test Zepto
- * @todo stagePadding calculate wrong active classes
- */
+/**Owl Carousel*/
 ;(function($, window, document, undefined) {
 
 	/**
@@ -1754,13 +1738,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * AutoRefresh Plugin
- * @version 2.3.4
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+/**AutoRefresh Plugin*/
 ;(function($, window, document, undefined) {
 
 	/**
@@ -1866,13 +1844,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Lazy Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+/**Lazy Plugin*/
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2016,13 +1988,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * AutoHeight Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+/**AutoHeight Plugin*/
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2149,13 +2115,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Video Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+/**Video Plugin*/
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2310,13 +2270,7 @@
 		this.thumbnail(target, this._videos[url]);
 	};
 
-	/**
-	 * Creates video thumbnail.
-	 * @protected
-	 * @param {jQuery} target - The target containing the video data.
-	 * @param {Object} info - The video info object.
-	 * @see `fetch`
-	 */
+	/**Creates video thumbnail.*/
 	Video.prototype.thumbnail = function(target, video) {
 		var tnLink,
 			icon,
@@ -2477,13 +2431,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Animate Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+/**Animate Plugin*/
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2599,22 +2547,10 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Autoplay Plugin
- * @version 2.3.4
- * @author Bartosz Wojciechowski
- * @author Artus Kolanowski
- * @author David Deutsch
- * @author Tom De Caluwé
- * @license The MIT License (MIT)
- */
+/**Autoplay Plugin*/
 ;(function($, window, document, undefined) {
 
-	/**
-	 * Creates the autoplay plugin.
-	 * @class The Autoplay Plugin
-	 * @param {Owl} scope - The Owl Carousel
-	 */
+	/**Creates the autoplay plugin.*/
 	var Autoplay = function(carousel) {
 		/**
 		 * Reference to the core.
@@ -2834,12 +2770,7 @@
 })(window.Zepto || window.jQuery, window, document);
 
 /**
- * Navigation Plugin
- * @version 2.3.4
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ * Navigation Plugin*/
 ;(function($, window, document, undefined) {
 	'use strict';
 
@@ -3240,13 +3171,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Hash Plugin
- * @version 2.3.4
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+/** Hash Plugin*/
 ;(function($, window, document, undefined) {
 	'use strict';
 
@@ -3363,15 +3288,6 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Support Plugin
- *
- * @version 2.3.4
- * @author Vivid Planet Software GmbH
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
 ;(function($, window, document, undefined) {
 
 	var style = $('<support>').get(0).style,
